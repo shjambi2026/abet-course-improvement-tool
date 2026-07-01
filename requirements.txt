@@ -4,5 +4,6 @@ pandas
 openai
 python-dotenv
 python-docx
+pypdf
 PyPDF2
 plotly
