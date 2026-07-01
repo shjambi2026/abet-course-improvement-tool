@@ -35,7 +35,7 @@ def extract_text_from_file(filename):
 
     if ext == ".pdf":
         try:
-            from pypdf import PdfReader
+            from PyPDF2 import PdfReader
             reader = PdfReader(str(path))
             text = []
             for page in reader.pages:
